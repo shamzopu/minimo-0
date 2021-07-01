@@ -1,0 +1,329 @@
+/*common css*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: ;
+	color: #626262;
+}
+/*common css*/
+/*headar start*/
+header{
+     padding: 25px 0;
+}
+.container{ 
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+}
+.logo{
+	margin-top: 2px;
+	float: left;
+	width: 13%;
+}
+.logo a{
+	
+}
+.logo a img{
+	width: 100%;
+
+	
+}
+.menu{
+	float: right;
+	width: 65%;
+
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	margin: 0px 50px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.menu ul li a:hover{}
+.menu ul li:last-child a{ 
+margin-right: 0;
+}
+/*header end*/
+/* banner css start*/
+    .banner-section{
+        padding: 50px 0;
+
+    }
+    .banner-image{}
+    .banner-image img{
+        width: 100%;
+    }
+
+    /* banner bottom css */
+    .banner-buttom{
+        padding: 60px 0;
+    }
+    .container2{
+        width: 70%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .bottom-content{}
+    .bottom-content span{
+        font-family:'Ubuntu-L';
+        font-size: 15px;
+        text-transform: uppercase;
+        color: red;
+    }
+    .bottom-content h1 {
+        font-size: 30px;
+        margin: 25px 0;
+        font-weight: 400;
+    }
+    .bottom-content p{
+        font-size: 15px;
+        line-height: 28px;
+        font-weight: 400;
+        margin-bottom: 30px;
+        color: #626262;
+    }
+
+/* first blog  css */
+.blog-section{
+    padding: 100px 0;
+}
+/* blog left */
+.blog-left{
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+}
+.blog-left img{
+    width: 100%;
+}
+.blog-text span{
+    display: block;
+    margin-top: 20px;
+}
+
+.blog-text h1{
+    margin: 10px 0;
+
+}
+.blog-text .mt{
+    display:block;
+    margin-top: 20px;
+}
+
+/* blog right */
+
+.blog-right{
+    float: right;
+    width: 48%;
+    margin-left: 2%;
+
+
+}
+.blog-right img{
+    width: 100%;
+}
+
+/* 2nd blog css */
+
+.blog-2 {
+    padding: 120px 0;
+}
+
+
+
+/* newslatter css */
+.newslatter{
+    padding: 80px 0;
+    background:#f0f0f0;
+}
+.newslatter-title{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.newslatter-title h1{
+    color: #333333;
+}
+
+.input-form{
+    width: 50%;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+
+
+}
+.input-form input{
+    width: 360px;
+    height: 40px;
+    font-family: 'PlayfairDisplay-Regular';
+    font-weight: 400;
+    /* position: relative; */
+    border:none;
+    background:transparent;
+    border-bottom: 1px solid black;
+    padding: 0 10px;
+
+}
+.input-form input:focus{
+    outline: none;
+}
+.input-form button {
+	position: absolute;
+	top: 60px;
+	right: 75px;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+/* blog three css */
+.blog-three{
+    padding: 100px 0;
+}
+
+.blog3-button{
+    margin: 100px 0;
+    text-align: center;
+
+}
+.blog3-button a{
+    margin: 80px 0;
+    text-decoration: none;
+    color: #626262;
+    border: 1px solid #626262;
+    padding: 12px 30px;
+    transition: .4s;
+}
+.blog3-button a:hover{
+    border: 1px solid red;
+}
+.footer-section{
+    background: #f0f0f0;
+    padding: 25px 0;
+}
+/* footer left css */
+.footer-left{
+    float: left;
+    width: 50%;
+}
+.footer-left ul{}
+.footer-left ul li{
+    display: inline-block;
+}
+.footer-left ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+    display: block;
+    padding: 10px 15px;
+
+}
+
+/* footer right css*/
+.footer-right {
+    text-align: right;
+}
+.footer-right ul{}
+
+.footer-right ul li{
+    display: inline-block;
+    color: black;
+}
+.footer-right ul li a{
+    display: block;
+    padding: 10px 15px;
+    color: #626262;
+    transition: .4s;
+}
+.footer-right ul li a:hover{
+    color: red;
+}
+.footer-right ul li:last-child a{
+    padding-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@font-face{
+	font-family: OpenSans-Regular.ttf;
+	src: url(../font/open-sans/OpenSans-Regular.ttf) ;
+}
+@font-face{
+	font-family: OpenSans-Light.ttf;
+	src: url(../font/open-sans/OpenSans-Light.ttf) ;
+}
+@font-face{
+	font-family: OpenSans-Bold.ttf;
+	src: url(../font/open-sans/OpenSans-Bold.ttf) ;
+}
+h1{
+	font-family: OpenSans-Regular.ttf
+}*/
